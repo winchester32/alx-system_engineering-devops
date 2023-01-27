@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displays lines with bash word
+ps -aux | grep bash
+# shellcheck disable=SC2009
