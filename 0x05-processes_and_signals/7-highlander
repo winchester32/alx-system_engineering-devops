@@ -2,7 +2,7 @@
 # Displays "i am invincible!!!" between iteration
 
 trap 'echo "I am invincible!!!"' SIGTERM
-while :
+while true;
 do
 	echo "To infinity and beyond"
 	sleep 2
